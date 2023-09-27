@@ -14,7 +14,7 @@
             <TextBox x:Name="textBoxAnswer" Margin="10,10,10,10" BorderThickness="0" AutomationProperties.HelpText="Введите ворос" Foreground="White" IsReadOnly="True" FontSize="22" TextAlignment="Center" FontWeight="Bold" VerticalAlignment="Center" IsEnabled="False"/>
         </Border>
 
-        <Button Click="Ask" Content="Click Me" Width="100" Height="50" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,217,0,0" Background="#FF6C4363" BorderBrush="#FF625866" BorderThickness="4"/>
+        <Button Click="Ask" Content="Задать вопрос" Width="155" Height="50" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,217,0,0" Background="#FF6C4363" BorderBrush="#FF625866" BorderThickness="4"/>
 
         <Border Margin="80,30,80,250" CornerRadius="10" Background="#FF4C404F" BorderBrush="#FF625866" BorderThickness="4">
             <TextBox x:Name="textBoxInput" materialDesign:HintAssist.Hint ="123"  Margin="10,10,10,10" BorderThickness="0" Cursor="IBeam" AutomationProperties.HelpText="123" Foreground="White" AcceptsReturn="True"/>
